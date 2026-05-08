@@ -7,8 +7,8 @@ import requests
 
 class TelegramNotifier:
     def __init__(self):
-        self.token   = os.getenv("TELEGRAM_BOT_TOKEN", "")
-        self.chat_id = os.getenv("TELEGRAM_CHAT_ID", "")
+        self.token   = os.getenv("8324193774:AAEFX1_InjHHR7FCjUrvHGpkUYxpmuMZX-4", "")
+        self.chat_id = os.getenv("5504109789", "")
         self.enabled = bool(self.token and self.chat_id)
         if not self.enabled:
             print("  ⚠️  Telegram tidak dikonfigurasi (opsional, isi di .env)")
