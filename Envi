@@ -1,0 +1,6 @@
+cp .env.example .env
+OKX_API_KEY=api_key_kamu
+OKX_SECRET_KEY=secret_key_kamu
+OKX_PASSPHRASE=passphrase_kamu
+TELEGRAM_BOT_TOKEN=token_bot_telegram  # opsional
+TELEGRAM_CHAT_ID=chat_id_kamu          # opsional
